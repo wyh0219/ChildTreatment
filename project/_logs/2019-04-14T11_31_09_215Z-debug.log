@@ -1,0 +1,25 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'axios',
+1 verbose cli   '!!vue-style-loader!css-loader?{sourceMap:true}!../../../node_modules/vue-loader/lib/style-compiler/index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\\\\实训一\\\\16ling9A_fourGroup\\\\project\\\\src\\\\style\\\\index.scss}!../../../node_modules/vue-loader/lib/selector?type=styles' ]
+2 info using npm@6.2.0
+3 info using node@v10.8.0
+4 verbose npm-session 1cb8b5c858b32d3f
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData error for file:..\node_modules\vue-loader\lib\style-compiler\index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\实训一\16ling9A_fourGroup\project\src\node_modules\vue-loader\lib\selector?type=styles Could not install from "..\node_modules\vue-loader\lib\style-compiler\index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\实训一\16ling9A_fourGroup\project\src\node_modules\vue-loader\lib\selector?type=styles" as it does not contain a package.json file.
+8 silly fetchPackageMetaData error for axios@latest request to http://registry.npm.taobao.org/axios failed, reason: getaddrinfo ENOTFOUND registry.npm.taobao.org registry.npm.taobao.org:80
+9 timing stage:rollbackFailedOptional Completed in 2ms
+10 timing stage:runTopLevelLifecycles Completed in 4031ms
+11 verbose stack Error: ENOENT: no such file or directory, open 'D:\实训一\16ling9A_fourGroup\node_modules\vue-loader\lib\style-compiler\index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\实训一\16ling9A_fourGroup\project\src\node_modules\vue-loader\lib\selector?type=styles\package.json'
+12 verbose cwd D:\实训一\16ling9A_fourGroup\project
+13 verbose Windows_NT 10.0.17134
+14 verbose argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "axios" "!!vue-style-loader!css-loader?{sourceMap:true}!../../../node_modules/vue-loader/lib/style-compiler/index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\\\\实训一\\\\16ling9A_fourGroup\\\\project\\\\src\\\\style\\\\index.scss}!../../../node_modules/vue-loader/lib/selector?type=styles"
+15 verbose node v10.8.0
+16 verbose npm  v6.2.0
+17 error code ENOLOCAL
+18 error Could not install from "..\node_modules\vue-loader\lib\style-compiler\index?{vue:true,id:data-v-0c4baa57,scoped:true,hasInlineConfig:false}!sass-loader?{sourceMap:true}!sass-resources-loader?{resources:D:\实训一\16ling9A_fourGroup\project\src\node_modules\vue-loader\lib\selector?type=styles" as it does not contain a package.json file.
+19 verbose exit [ 1, true ]
